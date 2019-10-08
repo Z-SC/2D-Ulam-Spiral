@@ -64,7 +64,7 @@ def isPrime(n):
 # 2: Determine number of segments to create in each ring
 # 4: If Segment is prime, fill with color. Else, no color
 # 5: Create segments (for more details, see line 5)
-
+#
 
 for ring in range(1, numberOfRings + 1):
     numberOfSegments = ring*2 + 2  # polynomial to calculate the number of segments per ring, interpolated (1. 4), (2, 6), (3, 8)...
